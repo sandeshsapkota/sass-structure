@@ -1,0 +1,28 @@
+.testimonial-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+
+  //
+
+  .testimonial:first-child {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+
+  .testimonial:nth-child(3) {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .testimonial:nth-child(4) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .testimonial:last-child {
+    grid-column: 3;
+    grid-row: 2;
+  }
+}
+

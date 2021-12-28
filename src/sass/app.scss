@@ -1,0 +1,13 @@
+body{
+  background: #e5e5e5;
+}
+
+:is(header,footer) button{
+  background: blue;
+  border: 0;
+  padding: 8px 12px;
+  color: white;
+  margin: 12px auto;
+  //width: 100px;
+  display: block;
+}
